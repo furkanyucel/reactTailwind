@@ -44,7 +44,7 @@ const AddWorked = ({onUsers}) => {
       <input type="text" value={enteredName} onChange={nameHandler} />
       <input type="number" value={enteredWage} onChange={wageHandler} />
       <Button type="submit">Ekle</Button>
-      <Button type="button" onClick={resetHandler}>Temizle</Button>
+      <Button type="button" onClick={resetHandler} className="buttonReset">Temizle</Button>
     </form>
   );
 };

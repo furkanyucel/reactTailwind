@@ -39,3 +39,7 @@ h2 {
 li {
   @apply my-2
 }
+
+.buttonReset {
+  @apply bg-red-500 hover:bg-red-600
+}
